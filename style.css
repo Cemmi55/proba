@@ -1,0 +1,209 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Nunito', sans-serif;
+    background-image: url('images/wallpaper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-panel{
+    background-color: #6d7c28;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-panel a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar-home{
+    width: 100%;
+    height: 100%;
+    background-color: #142434;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-home img{
+    width: 150px;
+    margin-left: 25px;
+    margin: 5px 0px 5px 100px;
+}
+
+.navbar-home .nav-item{
+    text-decoration: none;
+    display: inline;
+    padding: 15px 30px;
+    margin: 0px 20px;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.navbar-home .nav-item:hover{
+    border-radius: 50px;
+    background-color:#96d0d6;
+    color: #142434;
+    
+}
+
+.navbar-home a{
+    text-decoration: none;
+    color: #96d0d6;
+}
+
+.hero-home{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero-home img{
+    margin-right: 10px;
+    width: 40%;
+    box-shadow: rgba(0, 0, 0, 0.603) 0px 19px 38px, rgba(0, 0, 0, 0.63) 0px 15px 12px;
+}
+
+.hero-home .hero-text1{
+    padding:40px
+}
+
+.hero-home .hero-text1 h2{
+    font-size: 40px;
+}
+
+.hero-home .hero-text1 p{
+    font-size: 25px;
+    text-align: justify;
+    width: 600px;
+}
+
+#contact{
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    color:#e1f292 ;
+}
+
+.shop-items{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.shop-items .card {
+    box-shadow: 0px 20px 25px 26px rgba(0,0,0,0.1),0px 21px 18px 18px rgba(0,0,0,0.4),0px 51px 33px -18px rgba(0,0,0,0.5);
+    max-width: 300px;
+    max-height: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.shop-items .card img{
+    transition: 0.3s ease;
+}
+
+.shop-items .card img:hover{
+    transform: scale(1.1);
+}
+
+.shop-items .card .price{
+    color: rgb(36, 36, 36);
+    font-size: 22px;
+}
+
+.shop-items .card button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.shop-items .card button:hover{
+    opacity: 0.7;
+}
+
+input:focus, textarea:focus{
+    outline:none;
+}
+
+form{
+    margin: 80px auto auto auto;
+    padding:15px;
+    border-radius: 20px;
+    max-width: 900px;
+    max-height: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.contact{
+    text-align: center;
+    font-size: 40px;
+}
+
+input{
+    width: 100%;
+    padding-top:20px;
+    display: flex;
+    border:none;
+    background:none;
+    border-bottom: 2px solid black;
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+    
+}
+::placeholder{
+    color: black;
+}
+textarea{
+    width: 100%;
+    padding-top:20px;
+    display: flex;
+    border:none;
+    background:none;
+    border-bottom: 2px solid black;
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+    min-width: 200px;
+    max-width: 900px;
+    min-height: 60px;
+}
+
+.dugme{
+    position:relative;
+    left: 35%;
+    margin-top: 20px;
+    width: 240px;
+    height: 80px;
+    font-size: 25px;
+    background-color: #6d7c28;
+    border: none;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.dugme:hover{
+    border-radius: 25px;
+    background-color: #e1f292;
+}
